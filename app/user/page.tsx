@@ -8,7 +8,7 @@ export default async function UserPage() {
       <div>
         <h1>User Page</h1>
         Title:
-        {data.title}
+        {data.username}
       </div>
     </>
   );
