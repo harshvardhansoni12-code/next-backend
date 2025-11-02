@@ -6,3 +6,15 @@ export function GET() {
     email: "john@gmail.com",
   });
 }
+
+export function POST() {
+  return NextResponse.json({
+    message: "This is a POST request",
+  });
+}
+
+export function DELETE() {
+  return NextResponse.json({
+    message: "This is a DELETE request",
+  });
+}
